@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieMatch</string>
+    <string name="title_accueil">Accueil</string>
+    <string name="title_favoris">Favoris</string>
+    <string name="title_jeu">MovieMatch</string>
+    <string name="title_amis">Amis</string>
+    <string name="title_compte">Compte</string>
+</resources>

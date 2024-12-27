@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_tableau_bord">
+
+    <fragment
+        android:id="@+id/navigation_tableau_bord"
+        android:name="com.example.MovieMatch.ui.tableauBord.TableauBordFragment"
+        tools:layout="@layout/fragment_tableau_bord" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.MovieMatch.ui.Search.SearchFragment"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_search_friends"
+        android:name="com.example.MovieMatch.ui.searchFriends.SearchFriendsFragment"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_films_genre"
+        android:name="com.example.MovieMatch.ui.filmsGenre.FilmsGenreFragment"
+        tools:layout="@layout/fragment_films_categorie" />
+
+    <fragment
+        android:id="@+id/navigation_amis"
+        android:name="com.example.MovieMatch.ui.friends.FriendsFragment"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/navigation_details"
+        android:name="com.example.MovieMatch.ui.detailsFilms.DetailsFilmsFragment"
+        tools:layout="@layout/fragment_description" />
+
+    <fragment
+        android:id="@+id/navigation_favoris"
+        android:name="com.example.MovieMatch.ui.favoris.FavorisFragment"
+        tools:layout="@layout/fragment_favoris" />
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.example.MovieMatch.ui.Profil.ProfilFragment"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/navigation_jeu"
+        android:name="com.example.MovieMatch.ui.jeu.JeuFragment"
+        tools:layout="@layout/fragment_jeux" />
+
+
+</navigation>
